@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AFT.UGS.Core.Clients;
+using AFT.UGS.Core.BrandClient;
 using AFT.UGS.Core.Interfaces.Extensions;
 using AFT.UGS.Core.Messages.OAuth;
 using AFT.UGS.Core.Messages.Players;

@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerAuthorization", "PlayerAuthorization\PlayerAuthorization.csproj", "{5231F48A-769A-4751-9BDB-EF2B16982AFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{350E0BFE-3D1B-4B76-AD31-0B69DABB158B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UgsApiTester", "UgsApiTester\UgsApiTester.csproj", "{3510776B-5E7C-426E-A18B-5C3F803F27E9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "..\..\..\unified-game-server\Core\Authorization\Authorization.csproj", "{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clients", "..\..\..\unified-game-server\Core\Clients\Clients.csproj", "{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28}"
 EndProject
@@ -23,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{87AABE
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrandClient", "..\..\..\unified-game-server\Core\BrandClient\BrandClient.csproj", "{93D0597B-347F-4E86-9108-A2121FEE44BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseModels", "..\..\..\unified-game-server\Core\BaseModels\BaseModels.csproj", "{B4C3700E-6B63-4410-9958-E98CAF2D2F87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +40,6 @@ Global
 		{3510776B-5E7C-426E-A18B-5C3F803F27E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3510776B-5E7C-426E-A18B-5C3F803F27E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3510776B-5E7C-426E-A18B-5C3F803F27E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,15 +56,24 @@ Global
 		{568702D7-FED6-4B70-8C1C-AF8A268DAF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{568702D7-FED6-4B70-8C1C-AF8A268DAF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{568702D7-FED6-4B70-8C1C-AF8A268DAF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D0597B-347F-4E86-9108-A2121FEE44BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D0597B-347F-4E86-9108-A2121FEE44BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D0597B-347F-4E86-9108-A2121FEE44BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D0597B-347F-4E86-9108-A2121FEE44BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5ED3B3AA-3026-4B91-A1F2-2E96F4FCBC80} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{A38C0769-AD67-4304-B0C8-B545AA221E7B} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{C893C9CB-898F-4E4F-9403-DFD731A93ABF} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{568702D7-FED6-4B70-8C1C-AF8A268DAF66} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
+		{93D0597B-347F-4E86-9108-A2121FEE44BF} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
+		{B4C3700E-6B63-4410-9958-E98CAF2D2F87} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 	EndGlobalSection
 EndGlobal

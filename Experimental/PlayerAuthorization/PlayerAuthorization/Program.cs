@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using AFT.UGS.Core.Clients;
+using AFT.UGS.Core.BrandClient;
 using AFT.UGS.Core.Messages.OAuth;
 using AFT.UGS.Core.Messages.Players;
 using Newtonsoft.Json;

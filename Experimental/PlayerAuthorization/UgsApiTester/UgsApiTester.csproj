@@ -97,9 +97,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\unified-game-server\Core\Authorization\Authorization.csproj">
-      <Project>{5ed3b3aa-3026-4b91-a1f2-2e96f4fcbc80}</Project>
-      <Name>Authorization</Name>
+    <ProjectReference Include="..\..\..\..\unified-game-server\Core\BaseModels\BaseModels.csproj">
+      <Project>{b4c3700e-6b63-4410-9958-e98caf2d2f87}</Project>
+      <Name>BaseModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\unified-game-server\Core\BrandClient\BrandClient.csproj">
+      <Project>{93d0597b-347f-4e86-9108-a2121fee44bf}</Project>
+      <Name>BrandClient</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\..\unified-game-server\Core\Clients\Clients.csproj">
       <Project>{5776E9E8-B3A7-4111-BD2D-BEA00D6F2E28}</Project>

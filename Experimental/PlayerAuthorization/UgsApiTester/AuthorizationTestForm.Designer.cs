@@ -44,11 +44,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cboClientName = new System.Windows.Forms.ComboBox();
             this.tabAuthorize = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtPlayerToken = new System.Windows.Forms.TextBox();
             this.txtAccessToken = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnAuthorize = new System.Windows.Forms.Button();
-            this.txtPlayerToken = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabGetToken.SuspendLayout();
             this.tabAuthorize.SuspendLayout();
@@ -76,6 +77,8 @@
             // 
             this.tabControl1.Controls.Add(this.tabGetToken);
             this.tabControl1.Controls.Add(this.tabAuthorize);
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tabControl1.Location = new System.Drawing.Point(31, 23);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -219,6 +222,23 @@
             this.tabAuthorize.Text = "Authorize Player";
             this.tabAuthorize.UseVisualStyleBackColor = true;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(54, 127);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(82, 16);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "player token";
+            // 
+            // txtPlayerToken
+            // 
+            this.txtPlayerToken.Location = new System.Drawing.Point(142, 127);
+            this.txtPlayerToken.Name = "txtPlayerToken";
+            this.txtPlayerToken.ReadOnly = true;
+            this.txtPlayerToken.Size = new System.Drawing.Size(592, 22);
+            this.txtPlayerToken.TabIndex = 29;
+            // 
             // txtAccessToken
             // 
             this.txtAccessToken.Location = new System.Drawing.Point(142, 17);
@@ -245,22 +265,15 @@
             this.btnAuthorize.UseVisualStyleBackColor = true;
             this.btnAuthorize.Click += new System.EventHandler(this.btnAuthorize_Click);
             // 
-            // txtPlayerToken
+            // tabPage1
             // 
-            this.txtPlayerToken.Location = new System.Drawing.Point(142, 127);
-            this.txtPlayerToken.Name = "txtPlayerToken";
-            this.txtPlayerToken.ReadOnly = true;
-            this.txtPlayerToken.Size = new System.Drawing.Size(592, 22);
-            this.txtPlayerToken.TabIndex = 29;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(54, 127);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 16);
-            this.label7.TabIndex = 30;
-            this.label7.Text = "player token";
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(766, 269);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // AuthorizationTestForm
             // 
@@ -309,5 +322,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtPlayerToken;
+        private System.Windows.Forms.TabPage tabPage1;
     }
 }
