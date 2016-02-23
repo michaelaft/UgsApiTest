@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrandClient", "..\..\..\uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseModels", "..\..\..\unified-game-server\Core\BaseModels\BaseModels.csproj", "{B4C3700E-6B63-4410-9958-E98CAF2D2F87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\..\..\unified-game-server\Services\Infrastructure\Infrastructure.csproj", "{EB246409-B2C0-4015-838B-F476A27A3693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenData", "..\..\..\unified-game-server\Core\TokenData\TokenData.csproj", "{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +68,14 @@ Global
 		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C3700E-6B63-4410-9958-E98CAF2D2F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB246409-B2C0-4015-838B-F476A27A3693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB246409-B2C0-4015-838B-F476A27A3693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB246409-B2C0-4015-838B-F476A27A3693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB246409-B2C0-4015-838B-F476A27A3693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +87,6 @@ Global
 		{568702D7-FED6-4B70-8C1C-AF8A268DAF66} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{93D0597B-347F-4E86-9108-A2121FEE44BF} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 		{B4C3700E-6B63-4410-9958-E98CAF2D2F87} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
+		{6C45B8DC-2DE8-4AC8-8D0E-BF87B268E506} = {350E0BFE-3D1B-4B76-AD31-0B69DABB158B}
 	EndGlobalSection
 EndGlobal

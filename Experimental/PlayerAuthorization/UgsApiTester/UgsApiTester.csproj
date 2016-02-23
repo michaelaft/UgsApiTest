@@ -58,6 +58,12 @@
     <Compile Include="AuthorizationTestForm.Designer.cs">
       <DependentUpon>AuthorizationTestForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AuthTokenHelperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthTokenHelperForm.Designer.cs">
+      <DependentUpon>AuthTokenHelperForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClientCredential.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AuthorizationTestForm.resx">
       <DependentUpon>AuthorizationTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthTokenHelperForm.resx">
+      <DependentUpon>AuthTokenHelperForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -116,6 +125,14 @@
     <ProjectReference Include="..\..\..\..\unified-game-server\Core\Messages\Messages.csproj">
       <Project>{c893c9cb-898f-4e4f-9403-dfd731a93abf}</Project>
       <Name>Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\unified-game-server\Core\TokenData\TokenData.csproj">
+      <Project>{6c45b8dc-2de8-4ac8-8d0e-bf87b268e506}</Project>
+      <Name>TokenData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\unified-game-server\Services\Infrastructure\Infrastructure.csproj">
+      <Project>{eb246409-b2c0-4015-838b-f476a27a3693}</Project>
+      <Name>Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

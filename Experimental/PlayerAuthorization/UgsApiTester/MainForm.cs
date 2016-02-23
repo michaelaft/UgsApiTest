@@ -21,5 +21,16 @@ namespace UgsApiTester
             form.ShowDialog();
         }
 
+        private void decryptAuthTokenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowDecryptAuthTokenForm();
+
+        }
+
+        private void ShowDecryptAuthTokenForm()
+        {
+            var form = new AuthTokenHelperForm();
+            form.ShowDialog();
+        }
     }
 }
